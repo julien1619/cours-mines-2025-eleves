@@ -1,5 +1,191 @@
-Exercice 5
+<!DOCTYPE html>
+<html lang="fr">
 
-Consignes :
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-- Réaliser l'implémentation statique de l'interface
+    <title>Exercice 1</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            flex: 0 0 auto;
+            background-color: #c8c8c8;
+            padding: 12px;
+        }
+
+        section#messages {
+            flex: 1 1 auto;
+            overflow-y: auto;
+        }
+
+        .message {
+            border-bottom: 1px solid #c8c8c8;
+            padding: 12px;
+        }
+
+        footer {
+            flex: 0 0 auto;
+            background-color: #c8c8c8;
+            padding: 12px;
+        }
+
+        input {
+            border-radius: 8px;
+        }
+
+        .input-md {
+            width: 300px;
+            height: 40px;
+            margin: 20px;
+        }
+
+        .input-lg {
+            width: 400px;
+            height: 60px;
+            margin: 20px;
+        }
+
+        button {
+            border: none;
+            border-radius: 8px;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <label for="userId">User</label>
+        <input class="input-md" type="text" id="userId" name="userId" />
+    </header>
+
+    <section id="messages">
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+        <div class="message">
+            <div class="message-body">
+                <h6 class="message-author">
+                    Auteur - il y a 2h
+                </h6>
+                <p class="message-content">Mon premier beep.</p>
+                <span>6 likes</span>
+                <a href="#" class="message-link">Liker</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <form>
+            <div>
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" class="input-lg" />
+            </div>
+
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>
